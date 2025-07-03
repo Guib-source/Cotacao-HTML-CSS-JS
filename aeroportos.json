@@ -1,0 +1,134 @@
+[
+  {
+    "Cidade": "Aracaju",
+    "IATA": "AJU"
+  },
+  {
+    "Cidade": "Belo Horizonte",
+    "IATA": "CNF"
+  },
+  {
+    "Cidade": "Belém",
+    "IATA": "BEL"
+  },
+  {
+    "Cidade": "Boa Vista",
+    "IATA": "BVB"
+  },
+  {
+    "Cidade": "Brasília",
+    "IATA": "BSB"
+  },
+  {
+    "Cidade": "Campo Grande",
+    "IATA": "CGR"
+  },
+  {
+    "Cidade": "Cuiabá",
+    "IATA": "CGB"
+  },
+  {
+    "Cidade": "Curitiba",
+    "IATA": "CWB"
+  },
+  {
+    "Cidade": "Florianópolis",
+    "IATA": "FLN"
+  },
+  {
+    "Cidade": "Fortaleza",
+    "IATA": "FOR"
+  },
+  {
+    "Cidade": "Goiânia",
+    "IATA": "GYN"
+  },
+  {
+    "Cidade": "Imperatriz",
+    "IATA": "IMP"
+  },
+  {
+    "Cidade": "João Pessoa",
+    "IATA": "JPA"
+  },
+  {
+    "Cidade": "Macapá",
+    "IATA": "MCP"
+  },
+  {
+    "Cidade": "Maceió",
+    "IATA": "MCZ"
+  },
+  {
+    "Cidade": "Manaus",
+    "IATA": "MAO"
+  },
+  {
+    "Cidade": "Natal",
+    "IATA": "NAT"
+  },
+  {
+    "Cidade": "Palmas",
+    "IATA": "PMW"
+  },
+  {
+    "Cidade": "Porto Alegre",
+    "IATA": "POA"
+  },
+  {
+    "Cidade": "Porto Velho",
+    "IATA": "PVH"
+  },
+  {
+    "Cidade": "Presidente Prudente",
+    "IATA": "PPB"
+  },
+  {
+    "Cidade": "Recife",
+    "IATA": "REC"
+  },
+  {
+    "Cidade": "Rio Branco",
+    "IATA": "RBR"
+  },
+  {
+    "Cidade": "Rio de Janeiro",
+    "IATA": "GIG"
+  },
+  {
+    "Cidade": "Rio de Janeiro",
+    "IATA": "SDU"
+  },
+  {
+    "Cidade": "Salvador",
+    "IATA": "SSA"
+  },
+  {
+    "Cidade": "São Luís",
+    "IATA": "SLZ"
+  },
+  {
+    "Cidade": "São Paulo",
+    "IATA": "CGH"
+  },
+  {
+    "Cidade": "São Paulo",
+    "IATA": "GRU"
+  },
+  {
+    "Cidade": "São Paulo",
+    "IATA": "VCP"
+  },
+  {
+    "Cidade": "Teresina",
+    "IATA": "THE"
+  },
+  {
+    "Cidade": "Vilhena",
+    "IATA": "BVH"
+  },
+  {
+    "Cidade": "Vitória",
+    "IATA": "VIX"
+  }
+]

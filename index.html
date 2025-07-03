@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gerador de Cotações Aéreas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Gerador de Cotações Aéreas</h2>
+
+      <form id="cotacaoForm">
+        <!-- Origem e Destino -->
+        <div>
+          <label for="origem">Origem:</label>
+          <input type="text" id="origem" data-campo="origem" />
+        </div>
+
+        <div>
+          <label for="destino">Destino:</label>
+          <input type="text" id="destino" data-campo="destino" />
+        </div>
+
+        <!-- Datas -->
+        <div>
+          <label for="data_ida">Data da Ida:</label>
+          <input type="date" id="data_ida" data-campo="data_ida" />
+        </div>
+
+        <div>
+          <label for="data_volta">Data da Volta:</label>
+          <input type="date" id="data_volta" data-campo="data_volta" />
+        </div>
+
+        <!-- Horários -->
+        <div>
+          <label for="saida_ida">Hora da Ida:</label>
+          <input type="time" id="saida_ida" data-campo="saida_ida" />
+        </div>
+
+        <div>
+          <label for="saida_volta">Hora da Ida:</label>
+          <input type="time" id="saida_volta" data-campo="saida_volta" />
+        </div>
+
+        <div>
+          <label for="chegada_ida">Hora da Chegada:</label>
+          <input type="time" id="chegada_ida" data-campo="chegada_ida" />
+        </div>
+
+        <div>
+          <label for="chegada_volta">Hora da Chegada:</label>
+          <input type="time" id="chegada_volta" data-campo="chegada_volta" />
+        </div>
+
+        <!-- Paradas -->
+        <div>
+          <label for="paradas_ida">Paradas ida</label>
+          <select id="paradas_ida" data-campo="paradas_ida">
+            <option value="Vôo direto">Direto</option>
+            <option value="01 parada">01 parada</option>
+            <option value="02 paradas">02 paradas</option>
+            <option value="03 paradas">03 paradas</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="paradas_volta">Paradas volta</label>
+          <select id="paradas_volta" data-campo="paradas_volta">
+            <option value="Vôo direto">Direto</option>
+            <option value="01 parada">01 parada</option>
+            <option value="02 paradas">02 paradas</option>
+            <option value="03 paradas">03 paradas</option>
+          </select>
+        </div>
+
+        <!-- Checkbox -->
+        <div class="checkbox-group full-width">
+          <input type="checkbox" id="somenteIda" />
+          <label for="somenteIda">Somente Ida</label>
+        </div>
+
+        <div class="checkbox-group full-width">
+          <input type="checkbox" id="bagagemDespachada" />
+          <label for="bagagemDespachada">Bagagem Despachada</label>
+        </div>
+
+        <!-- Valor -->
+        <div class="full-width">
+          <label for="valor">Valor da Passagem (R$):</label>
+          <input type="text" id="valor" data-campo="valor" />
+        </div>
+
+        <button type="submit" class="full-width">✈️ Gerar Cotação</button>
+      </form>
+
+      <h3>Adicionar Novo Aeroporto</h3>
+      <div class="add-airport-form">
+        <input type="text" id="novaCidade" placeholder="Cidade" />
+        <input
+          type="text"
+          id="novoIATA"
+          placeholder="Código IATA (3 letras)"
+          maxlength="3"
+        />
+        <button onclick="adicionarAeroporto()">➕ Adicionar Aeroporto</button>
+      </div>
+
+      <h3>Texto da Cotação:</h3>
+      <div class="output" id="textoCotacao">O texto gerado aparecerá aqui.</div>
+      <button class="copy-btn full-width" onclick="copiarTexto()">
+        📋 Copiar Texto
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
